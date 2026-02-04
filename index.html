@@ -1,43 +1,206 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
-    <meta
-      name="description"
-      content="Web site created using create-react-app"
-    />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Dr. Annie Blessie Daniel | Physiotherapy at Home – Mumbai</title>
 
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-    <title>React App</title>
-  </head>
-  <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      line-height: 1.6;
+      color: #333;
+      background: #f9fbfc;
+    }
 
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
+    header {
+      background: #0a6ebd;
+      color: #fff;
+      padding: 40px 20px;
+      text-align: center;
+    }
 
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
-  </body>
+    header h1 {
+      margin-bottom: 10px;
+      font-size: 32px;
+    }
+
+    header p {
+      font-size: 18px;
+    }
+
+    section {
+      max-width: 900px;
+      margin: auto;
+      padding: 40px 20px;
+    }
+
+    h2 {
+      color: #0a6ebd;
+      margin-bottom: 15px;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    ul li {
+      margin-bottom: 10px;
+    }
+
+    .highlight {
+      background: #eef6fc;
+      padding: 20px;
+      border-left: 5px solid #0a6ebd;
+      margin: 30px 0;
+    }
+
+    .contact-box {
+      background: #0a6ebd;
+      color: white;
+      padding: 30px;
+      text-align: center;
+      border-radius: 6px;
+    }
+
+    .contact-box a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 18px;
+    }
+
+    form {
+      background: #ffffff;
+      padding: 25px;
+      border-radius: 6px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    label {
+      display: block;
+      margin-top: 15px;
+      font-weight: bold;
+    }
+
+    input, textarea {
+      width: 100%;
+      padding: 10px;
+      margin-top: 6px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      font-size: 15px;
+    }
+
+    button {
+      margin-top: 20px;
+      background: #0a6ebd;
+      color: white;
+      border: none;
+      padding: 12px 20px;
+      font-size: 16px;
+      cursor: pointer;
+      border-radius: 4px;
+    }
+
+    button:hover {
+      background: #084f89;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #eef6fc;
+      font-size: 14px;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>Dr. Annie Blessie Daniel</h1>
+  <p>Experienced Physiotherapist | Home Visits in Mumbai</p>
+</header>
+
+<section>
+  <h2>About the Doctor</h2>
+  <p>
+    Dr. Annie Blessie Daniel is a dedicated and skilled physiotherapy professional
+    currently working at <strong>SR Mehta Hospital</strong>, Mumbai.
+    She is known for her compassionate approach and commitment to patient well-being.
+  </p>
+  <p>
+    With strong clinical experience and a calm, professional manner, she provides
+    safe and effective physiotherapy care, especially for patients who prefer
+    treatment at home.
+  </p>
+</section>
+
+<section class="highlight">
+  <h2>Specialized Care</h2>
+  <ul>
+    <li>✔ Home physiotherapy for elderly patients</li>
+    <li>✔ Knee pain, arthritis & joint stiffness management</li>
+    <li>✔ Post-injury and mobility rehabilitation</li>
+    <li>✔ Gentle, medically responsible therapy techniques</li>
+  </ul>
+</section>
+
+<section>
+  <h2>Physiotherapy at Home</h2>
+  <p>
+    Dr. Annie is highly trusted for <strong>home visit physiotherapy</strong>,
+    ensuring comfort and safety for patients who have difficulty traveling.
+  </p>
+  <p>
+    Each session is customized according to the patient’s condition, age, and comfort level,
+    with special attention given to senior citizens and knee-related issues.
+  </p>
+</section>
+
+<section>
+  <h2>Why Patients Trust Dr. Annie</h2>
+  <ul>
+    <li>✔ Hospital-based clinical experience</li>
+    <li>✔ Patient-first and ethical practice</li>
+    <li>✔ Clear explanation of treatment & exercises</li>
+    <li>✔ Focus on safety, hygiene, and comfort</li>
+    <li>✔ Reliable and professional home visits</li>
+  </ul>
+</section>
+
+<section class="contact-box">
+  <h2>Contact for Home Visits</h2>
+  <p>Mumbai</p>
+  <p>📞 <a href="tel:9930057195">99300 57195</a></p>
+</section>
+
+<section>
+  <h2>Book an Appointment</h2>
+
+  <!-- FORM (Netlify compatible if needed later) -->
+  <form>
+    <label for="name">Patient Name</label>
+    <input type="text" id="name" placeholder="Enter full name" required>
+
+    <label for="phone">Phone Number</label>
+    <input type="tel" id="phone" placeholder="Enter contact number" required>
+
+    <label for="address">Address (Mumbai)</label>
+    <textarea id="address" rows="3" placeholder="Enter address"></textarea>
+
+    <label for="problem">Health Concern</label>
+    <textarea id="problem" rows="4" placeholder="Describe the issue (knee pain, elderly care, etc.)"></textarea>
+
+    <button type="submit">Request Appointment</button>
+  </form>
+</section>
+
+<footer>
+  © 2026 Dr. Annie Blessie Daniel | Physiotherapy Home Care – Mumbai
+</footer>
+
+</body>
 </html>
